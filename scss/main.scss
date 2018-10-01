@@ -1,0 +1,22 @@
+// this is an output file that brings together all parts
+
+// =========================================================
+// Third party modules
+// =========================================================
+
+@font-face {font-family: 'circular-book'; src:url('../fonts/lineto-circular-pro-book.ttf')}
+@font-face {font-family: 'circular-bold'; src:url('../fonts/lineto-circular-pro-bold.ttf')}
+
+// =========================================================
+// Your styles
+// =========================================================
+
+@import 'variables'; // contains global styles
+@import 'elements'; //  styling for larger layout components
+
+// =========================================================
+// Your components
+// =========================================================
+
+// contains each self-contained component in its own partial
+@import './components/button';
